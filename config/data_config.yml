@@ -1,10 +1,10 @@
 data:
   yearly:
     label_col: "2_Auspraegung_Label"
-    path: "./data/42131-0003-yearly_flat.csv"
+    path: "./data/yearly"
   quarterly:
     label_col: "3_Auspraegung_Label"
-    path: "./data/42131-0004-quarterly_flat.csv"
+    path: "./data/quarterly"
 column_mapping:
   sales_return: "Wert der zum Absatz bestimmten Produktion [EUR]"
   sales_amount_bm: "Menge der zum Absatz bestimmten Produktion (BM) [Anzahl]"
