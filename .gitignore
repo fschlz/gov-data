@@ -1,0 +1,16 @@
+# file ext
+*.ipynb
+*.csv
+*.pyc
+
+# dirs
+.vscode
+.pytest_cache
+.ipynb_checkpoints
+__pycache__
+
+# ignore spec. files
+app_api.py
+
+# keep spec. files
+!data/*

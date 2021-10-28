@@ -1,0 +1,19 @@
+data:
+  yearly:
+    label_col: "2_Auspraegung_Label"
+    path: "./data/42131-0003-yearly_flat.csv"
+  quarterly:
+    label_col: "3_Auspraegung_Label"
+    path: "./data/42131-0004-quarterly_flat.csv"
+column_mapping:
+  sales_return: "Wert der zum Absatz bestimmten Produktion [EUR]"
+  sales_amount_bm: "Menge der zum Absatz bestimmten Produktion (BM) [Anzahl]"
+  sales_weight_t: "Gewicht der zum Absatz bestimmten Produktion [t]"
+  sales_weight_kg: "Gewicht der zum Absatz bestimmten Produktion [kg]"
+  sales_amount: "Menge der zum Absatz bestimmten Produktion [Stück]"
+  amount_bm: "Menge der Gesamtproduktion (BM) [Anzahl]"
+  weight_t: "Gewicht der Gesamtproduktion [t]"
+  weight_kg: "Gewicht der Gesamtproduktion [kg]"
+  amount: "Menge der Gesamtproduktion [Stück]"
+  sales_companies: "Unternehmen mit zum Absatz bestimmter Produktion [Anzahl]"
+  producing_companies: "Unternehmen mit Produktion [Anzahl]"
