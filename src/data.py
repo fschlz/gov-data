@@ -44,8 +44,8 @@ class ProductData:
         logger.info("auto. loading files from ./resource/input")
 
         try:
-            cls.yearly = load.read_destatis_flatfile(Path(CONFIG.get("data").get("yearly").get("path")))
-            cls.quarterly = load.read_destatis_flatfile(Path(CONFIG.get("data").get("quarterly").get("path")))
+            cls.yearly = load.load_all_destatis_csvs_in(Path(CONFIG.get("data").get("yearly").get("path")))
+            cls.quarterly = load.load_all_destatis_csvs_in(Path(CONFIG.get("data").get("quarterly").get("path")))
 
             cls.run_preprocessing()
 
