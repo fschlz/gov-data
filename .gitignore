@@ -13,4 +13,4 @@ __pycache__
 app_api.py
 
 # keep spec. files
-!data/*
+!data/*/*
