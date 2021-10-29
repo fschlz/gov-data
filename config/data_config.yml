@@ -1,9 +1,11 @@
 data:
   yearly:
     label_col: "2_Auspraegung_Label"
+    id_col: "2_Auspraegung_Code"
     path: "./data/yearly"
   quarterly:
     label_col: "3_Auspraegung_Label"
+    id_col: "3_Auspraegung_Code"
     path: "./data/quarterly"
 column_mapping:
   sales_return: "Wert der zum Absatz bestimmten Produktion [EUR]"
